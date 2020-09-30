@@ -1,20 +1,19 @@
 <mjml>
     <mj-head>
-      <mj-title>Email service of romadhanedy.my.id</mj-title>
-      <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500"></mj-font>
-      <mj-font name="Pacifico" href="https://fonts.googleapis.com/css?family=Pacifico:300,400,500"></mj-font>
-      <mj-attributes>
-        <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"></mj-all>
-        <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
-        <mj-section padding="0px"></mj-section>
-      </mj-attributes>
-      <mj-style inline="inline">
+      <mj-font name="Baloo Tammudu 2" href="https://fonts.googleapis.com/css?family=Baloo%20Tammudu%202:300,400,500"></mj-font>
+        <mj-font name="Pacifico" href="https://fonts.googleapis.com/css?family=Pacifico:300,400,500"></mj-font>
+        <mj-attributes>
+          <mj-all font-family="'Baloo Tammudu 2', Helvetica, Arial, sans-serif"></mj-all>
+          <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px"></mj-text>
+          <mj-section padding="0px"></mj-section>
+        </mj-attributes>
+        <mj-style inline="inline">
             .cardInfo { cursor: pointer; position: relative;}
             .borHeader { background-color: #FFFFFF; border-top-left-radius: 30px; border-top-right-radius: 30px }
             .borHeader2 { background-color: #FFFFFF; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px }
             .contentMessage { background-color: #6640ad; }
             .logoImg { position: absolute; top: 10px; right: 20px }
-      </mj-style>
+        </mj-style>
     </mj-head>
     <mj-body background-color="#000000">
       <mj-section css-class="cardInfo">
