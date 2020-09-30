@@ -7,25 +7,43 @@
     </mj-attributes>
     <mj-style inline="inline">
       	.cardInfo { margin-top: 50px; position: relative; }
-      	.borHeader { background-color: #FFFFFF; }
-      	.mt-10 { margin-top: 100px }
+      	.content { background-color: #FFFFFF; }
+      	.header { background-color: #132743; }
+      	.footer { background-color: #132743; }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#F2F2F2">
+  <mj-body background-color="#d8d3cd">
     <mj-section css-class="cardInfo">
     	<mj-section css-class="logoImg" padding="10px 0 30px 0">
       </mj-section>
-      <mj-section css-class="borHeader" padding="20px 20px 0 20px">
+      <mj-section css-class="header" padding="20px 20px 0 20px">
         <mj-column>
-          <mj-image src="https://i.ibb.co/Mnb5Cj5/output-onlinepngtools.png" width="50px" height="50px"></mj-image>
-          <mj-text align="center" color="#6640ad" font-size="11px"><a href="mailto:romadhanedy.my.id@gmail.com" style="color: #6640ad; text-decoration:none;">service@romadhanedy.my.id</a></mj-text>
-          <mj-divider width="500px" border-width="1px" border-color="#6640ad"></mj-divider>
-          <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Dear Romadhan Prasetyo,</mj-text>
-          <mj-text align="left" font-size="16px" font-weight="300" line-height="10px">Thank you for the advice</mj-text>
-          <mj-text css-class="mt-10" align="left" font-size="16px" font-weight="300" line-height="10px"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
-          <mj-text align="left" font-size="16px" font-weight="300" line-height="50px">Sincerely</mj-text>
+          <mj-image src="https://i.ibb.co/QpgVJLR/image-1.png" width="50px" height="50px"></mj-image>
+          <mj-text align="center" color="#FFFFFF" font-size="11px"><a href="mailto:romadhanedy.my.id@gmail.com" style="color: #FFFFFF; text-decoration:none;">service@romadhanedy.my.id</a></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="content" padding="20px 20px 0 20px">
+        <mj-column>
+          <mj-text align="left" font-size="16px" font-weight="550" line-height="40px">Dear Romadhan Prasetyo,</mj-text>
+          <mj-text align="left" font-size="16px" font-weight="300" line-height="15px">Thank you for the advice</mj-text>
+          <mj-text align="left" font-size="16px" font-weight="300"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
+          <mj-text align="left" font-size="16px" font-weight="300" line-height="70px">Sincerely</mj-text>
           <br><br><br>
           <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Romadhan Prasetyo</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="footer" padding="20px 20px 0 20px">
+        <mj-column>
+          <mj-text align="center" color="#FFFFFF" font-size="16px">Find me</mj-text>
+          <mj-section>
+              <mj-column>
+                <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+                  <mj-social-element name="github" href="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/128/github-alt.png"></mj-social-element>
+                  <mj-social-element name="linkedin" href="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/128/github-alt.png"></mj-social-element>
+                </mj-social>
+              </mj-column>
+            </mj-section>
+          <mj-text align="center" color="#FFFFFF" font-size="16px">&copy; 2020 Romadhan</mj-text>
         </mj-column>
       </mj-section>
     </mj-section>
