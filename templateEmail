@@ -24,7 +24,7 @@
       </mj-section>
       <mj-section css-class="content" padding="20px 20px 0 20px">
         <mj-column>
-          <mj-text align="left" font-size="16px" font-weight="550" line-height="40px">Dear Romadhan Prasetyo,</mj-text>
+          <mj-text align="left" font-size="16px" font-weight="550" line-height="40px">Dear {{ bodyName }},</mj-text>
           <mj-text align="left" font-size="16px" font-weight="300" line-height="15px">Thank you for the advice</mj-text>
           <mj-text align="left" font-size="16px" font-weight="300"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
           <mj-text align="left" font-size="16px" font-weight="300" line-height="70px">Sincerely</mj-text>
@@ -38,8 +38,8 @@
           <mj-section>
               <mj-column>
                 <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-                  <mj-social-element name="github" href="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/128/github-alt.png"></mj-social-element>
-                  <mj-social-element name="linkedin" href="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/white/png/128/github-alt.png"></mj-social-element>
+                  <mj-social-element name="github" href="https://www.linkedin.com/in/romadhan-prasetyo-a84225173/"></mj-social-element>
+                  <mj-social-element name="linkedin" href="https://www.linkedin.com/in/romadhan-prasetyo-a84225173/"></mj-social-element>
                 </mj-social>
               </mj-column>
             </mj-section>
