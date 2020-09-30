@@ -8,6 +8,7 @@
     <mj-style inline="inline">
       	.cardInfo { margin-top: 50px; position: relative; }
       	.borHeader { background-color: #FFFFFF; }
+      	.mt-10 { margin-top: 100px }
     </mj-style>
   </mj-head>
   <mj-body background-color="#F2F2F2">
@@ -21,8 +22,7 @@
           <mj-divider width="500px" border-width="1px" border-color="#6640ad"></mj-divider>
           <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Dear Romadhan Prasetyo,</mj-text>
           <mj-text align="left" font-size="16px" font-weight="300" line-height="10px">Thank you for the advice</mj-text>
-          <br><br><br>
-          <mj-text align="left" font-size="16px" font-weight="300" line-height="10px"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
+          <mj-text css-class="mt-10" align="left" font-size="16px" font-weight="300" line-height="10px"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
           <mj-text align="left" font-size="16px" font-weight="300" line-height="50px">Sincerely</mj-text>
           <br><br><br>
           <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Romadhan Prasetyo</mj-text>
