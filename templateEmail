@@ -12,7 +12,7 @@
       	.footer { background-color: #132743; }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#d8d3cd">
+  <mj-body background-color="#e5e5e5">
     <mj-section css-class="cardInfo">
     	<mj-section css-class="logoImg" padding="10px 0 30px 0">
       </mj-section>
