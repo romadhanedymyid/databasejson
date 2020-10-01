@@ -9,7 +9,7 @@
       	.cardInfo { margin-top: 50px; position: relative; }
       	.content { background-color: #FFFFFF; }
       	.header { background-color: #132743; }
-      	.footer { background-color: #132743; font-family: 'Faster', cursive; }
+      	.footer { background-color: #132743; }
     </mj-style>
   </mj-head>
   <mj-body background-color="#F2F2F2">
@@ -33,14 +33,14 @@
           <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Romadhan Prasetyo</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section css-class="content" padding="20px 0px 10px 20px">
+      <mj-section css-class="footer" padding="5px 20px 0 20px">
         <mj-column>
-          <mj-text align="left" font-size="16px" font-weight="550" line-height="40px">Dear {{ bodyName }},</mj-text>
-          <mj-text align="left" font-size="16px" font-weight="300" line-height="15px">Thank you for the advice</mj-text>
-          <mj-text align="left" font-size="16px" font-weight="300"><b>Your Message</b> : {{ bodyMessage }}</mj-text>
-          <mj-text align="left" font-size="16px" font-weight="300" line-height="70px">Sincerely</mj-text>
-          <br><br><br>
-          <mj-text align="left" font-size="16px" font-weight="550" line-height="50px">Romadhan Prasetyo</mj-text>
+          <mj-text align="center" color="#FFFFFF" font-size="16px">Find me</mj-text>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/romadhan-prasetyo-a84225173/"></mj-social-element>
+            <mj-social-element name="github" href="https://github.com/dyprast"></mj-social-element>
+          </mj-social>
+          <mj-text align="center" color="#FFFFFF" font-size="16px">&copy; 2020 Romadhan</mj-text>
         </mj-column>
       </mj-section>
     </mj-section>
