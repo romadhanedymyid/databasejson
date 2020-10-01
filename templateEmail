@@ -14,6 +14,8 @@
   </mj-head>
   <mj-body background-color="#F2F2F2">
     <mj-spacer></mj-spacer>
+    <mj-spacer></mj-spacer>
+    <mj-spacer></mj-spacer>
     <mj-section css-class="cardInfo">
       <mj-section css-class="header" padding="5px 20px 0 20px">
         <mj-column>
@@ -46,5 +48,8 @@
         </mj-column>
       </mj-section>
     </mj-section>
+    <mj-spacer></mj-spacer>
+    <mj-spacer></mj-spacer>
+    <mj-spacer></mj-spacer>
   </mj-body>
 </mjml>
