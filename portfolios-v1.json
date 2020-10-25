@@ -43,6 +43,19 @@
         },
         {
             "id": 4,
+            "name": "Dygoo",
+            "release_date": "2020 Oct",
+            "technology": "Nuxtjs and Nodejs with SocketIO",
+            "description": "Chat App",
+            "link": "https://dygoo.netlify.app",
+            "screenshoot": "https://i.ibb.co/LxcbwKP/dygoo.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 5,
             "name": "Dyposten",
             "release_date": "2019 Nov",
             "technology": "Laravel and Mysql",
