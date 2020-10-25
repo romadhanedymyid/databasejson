@@ -1,53 +1,44 @@
 {
-    code: 200,
-    message: "success",
-    data: [
+    "code": 200,
+    "message": "success",
+    "data": [
         {
-            id: 1,
-            category_id: 2,
-            name: "Seni Indonesia",
-            release_date: "2019-07-20",
-            technology: "Cordova and SQLite",
-            description: "Seni Indonesia - Lomba Aplikasi Mobile Ki Hajar 2019 - Kemendikbud",
-            link: "http://www.mediafire.com/file/f4zigvn2wj7gyd9/Seni_Indonesia.apk/file",
-            screenshoot: "https://live.staticflickr.com/65535/50108729843_54c045e3bb_c.jpg",
-            created_at: "2020-06-19T10:29:22.000000Z",
-            updated_at: "2020-06-19T13:20:49.000000Z",
-            category: {
-                id: 2,
-                name: "Android",
+            "id": 1,
+            "name": "Seni Indonesia",
+            "release_date": "2019-07-20",
+            "technology": "Cordova and SQLite",
+            "description": "Seni Indonesia (Lomba Aplikasi Mobile Ki Hajar 2019 - Kemendikbud)",
+            "link": "https://www.youtube.com/watch?v=vh422u6T-PY",
+            "screenshoot": "https://live.staticflickr.com/65535/50108729843_54c045e3bb_c.jpg",
+            "category": {
+                "id": 2,
+                "name": "Android"
             }
         },
         {
-            id: 2,
-            category_id: 2,
-            name: "Dychord",
-            release_date: "2020-03-07",
-            technology: "Cordova and SQLite",
-            description: "Guitar Chord App",
-            link: null,
-            screenshoot: "https://live.staticflickr.com/65535/50109299781_51d1fa393d_c.jpg",
-            created_at: "2020-06-19T12:42:41.000000Z",
-            updated_at: "2020-06-19T13:21:37.000000Z",
-            category: {
-                id: 2,
-                name: "Android",
+            "id": 2,
+            "name": "Dychord",
+            "release_date": "2020-03-07",
+            "technology": "Cordova and SQLite",
+            "description": "Guitar chord app",
+            "link": "https://github.com/dyprast/dychord",
+            "screenshoot": "https://live.staticflickr.com/65535/50109299781_51d1fa393d_c.jpg",
+            "category": {
+                "id": 2,
+                "name": "Android"
             }
         },
         {
-            id: 3,
-            category_id: 1,
-            name: "Dyresto",
-            release_date: "2020-02-11",
-            technology: "Laravel and Mysql",
-            description: "POS for restaurant cashier",
-            link: null,
-            screenshoot: "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
-            created_at: "2020-06-19T09:08:25.000000Z",
-            updated_at: "2020-06-19T13:22:28.000000Z",
-            category: {
-                id: 1,
-                name: "Web",
+            "id": 3,
+            "name": "Dyresto",
+            "release_date": "2020-02-11",
+            "technology": "Laravel and Mysql",
+            "description": "Restaurant cashier app",
+            "link": "https://github.com/dyprast/dyresto",
+            "screenshoot": "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
             }
         }
     ]
