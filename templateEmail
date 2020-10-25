@@ -37,7 +37,7 @@
         <mj-column>
           <mj-text align="center" color="#FFFFFF" font-size="16px">Find me</mj-text>
           <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/romadhan-prasetyo-a84225173/"></mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/romadhan-prasetyo/"></mj-social-element>
             <mj-social-element name="github" href="https://github.com/dyprast"></mj-social-element>
           </mj-social>
           <mj-text align="center" color="#FFFFFF" font-size="16px">&copy; 2020 Romadhan</mj-text>
