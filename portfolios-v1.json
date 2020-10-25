@@ -1,259 +1,54 @@
-[
-    {
-        code: 200,
-        message: "success",
-        data: [
-            {
-                id: 1,
-                category_id: 2,
-                name: "Seni Indonesia",
-                release_date: "2019-07-20",
-                technology: "Cordova and SQLite",
-                description: "Seni Indonesia - Lomba Aplikasi Mobile Ki Hajar 2019 - Kemendikbud",
-                link: "http://www.mediafire.com/file/f4zigvn2wj7gyd9/Seni_Indonesia.apk/file",
-                screenshoot: "https://live.staticflickr.com/65535/50108729843_54c045e3bb_c.jpg",
-                created_at: "2020-06-19T10:29:22.000000Z",
-                updated_at: "2020-06-19T13:20:49.000000Z",
-                category: {
-                    id: 2,
-                    name: "Android",
-                }
-            },
-            {
+{
+    code: 200,
+    message: "success",
+    data: [
+        {
+            id: 1,
+            category_id: 2,
+            name: "Seni Indonesia",
+            release_date: "2019-07-20",
+            technology: "Cordova and SQLite",
+            description: "Seni Indonesia - Lomba Aplikasi Mobile Ki Hajar 2019 - Kemendikbud",
+            link: "http://www.mediafire.com/file/f4zigvn2wj7gyd9/Seni_Indonesia.apk/file",
+            screenshoot: "https://live.staticflickr.com/65535/50108729843_54c045e3bb_c.jpg",
+            created_at: "2020-06-19T10:29:22.000000Z",
+            updated_at: "2020-06-19T13:20:49.000000Z",
+            category: {
                 id: 2,
-                category_id: 2,
-                name: "Dychord",
-                release_date: "2020-03-07",
-                technology: "Cordova and SQLite",
-                description: "Guitar Chord App",
-                link: null,
-                screenshoot: "https://live.staticflickr.com/65535/50109299781_51d1fa393d_c.jpg",
-                created_at: "2020-06-19T12:42:41.000000Z",
-                updated_at: "2020-06-19T13:21:37.000000Z",
-                category: {
-                    id: 2,
-                    name: "Android",
-                }
-            },
-            {
-                id: 3,
-                category_id: 1,
-                name: "Dyresto",
-                release_date: "2020-02-11",
-                technology: "Laravel and Mysql",
-                description: "POS for restaurant cashier",
-                link: null,
-                screenshoot: "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
-                created_at: "2020-06-19T09:08:25.000000Z",
-                updated_at: "2020-06-19T13:22:28.000000Z",
-                category: {
-                    id: 1,
-                    name: "Web",
-                }
+                name: "Android",
             }
-            
-            
-            
-            
-            // {
-            //     id: 1,
-            //     category_id: 1,
-            //     name: "Digitoys API",
-            //     release_date: "On Progress",
-            //     technology: "Lumen and Mysql",
-            //     description: "Digitoys API - Mediator : Fajar Aditio",
-            //     link: null,
-            //     screenshoot: "https://live.staticflickr.com/65535/50109683671_831e71a9e7_c.jpg",
-            //     created_at: "2020-06-19T12:59:13.000000Z",
-            //     updated_at: "2020-06-19T13:20:56.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 2,
-            //     category_id: 1,
-            //     name: "INDOHP Task Report",
-            //     release_date: "2020-06-19",
-            //     technology: "Laravel and Mysql",
-            //     description: "INDOHP Task Report App - Mediator : Fajar Aditio",
-            //     link: "https://gitlab.com/dyprast/indohptaskreport",
-            //     screenshoot: "https://live.staticflickr.com/65535/50109086493_4482c07d51_c.jpg",
-            //     created_at: "2020-06-19T12:59:13.000000Z",
-            //     updated_at: "2020-06-19T13:20:56.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 3,
-            //     category_id: 1,
-            //     name: "Netrans Admin",
-            //     release_date: "2020-05-28",
-            //     technology: "Laravel and Mysql",
-            //     description: "Netrans App (Admin) - Mediator : Fajar Aditio",
-            //     link: null,
-            //     screenshoot: "https://live.staticflickr.com/65535/50109086458_b5f5e90631_c.jpg",
-            //     created_at: "2020-06-19T12:58:30.000000Z",
-            //     updated_at: "2020-06-19T13:21:17.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 4,
-            //     category_id: 1,
-            //     name: "Vista Sastra",
-            //     release_date: "2020-03-30",
-            //     technology: "Laravel and Mysql",
-            //     description: "Badan Pengembangan dan Pembinaan Bahasa - Artist Gallery (Literature) - Mediator : Fajar Aditio",
-            //     link: null,
-            //     screenshoot: "https://live.staticflickr.com/65535/50109894157_afee8f5401_c.jpg",
-            //     created_at: "2020-06-19T13:02:22.000000Z",
-            //     updated_at: "2020-06-19T13:21:23.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            
-            // {
-            //     id: 6,
-            //     category_id: 1,
-            //     name: "Dyposten",
-            //     release_date: "2019-11-24",
-            //     technology: "Laravel and Mysql",
-            //     description: "Point of sale - LSP SMK Negeri 10 Jakarta",
-            //     link: null,
-            //     screenshoot: "https://live.staticflickr.com/65535/50109894342_499dfc4889_c.jpg",
-            //     created_at: "2020-06-19T09:19:51.000000Z",
-            //     updated_at: "2020-06-19T13:20:32.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 7,
-            //     category_id: 1,
-            //     name: "Arminareka Company Profile",
-            //     release_date: "2019-10-24",
-            //     technology: "Javascript",
-            //     description: "Frontend Company Profile - PT Arminareka Perdana - Mediator : Ahmad Saugi",
-            //     link: null,
-            //     screenshoot: "https://live.staticflickr.com/65535/50108668118_46b6750e92_h.jpg",
-            //     created_at: "2020-06-19T12:46:48.000000Z",
-            //     updated_at: "2020-06-19T13:20:43.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 8,
-            //     category_id: 1,
-            //     name: "Disposisi",
-            //     release_date: "2019-03-17",
-            //     technology: "PHP Native and Mysql",
-            //     description: "BNPB Indonesia - Disposisi App - Internship",
-            //     link: "https://github.com/dyprast/PLPKL_Disposisi",
-            //     screenshoot: "https://live.staticflickr.com/65535/50109738122_9343dd0cc8_c.jpg",
-            //     created_at: "2020-06-19T12:56:39.000000Z",
-            //     updated_at: "2020-06-19T13:21:32.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 9,
-            //     category_id: 1,
-            //     name: "Bantuan BPBD",
-            //     release_date: "2019-02-16",
-            //     technology: "Laravel and Mysql",
-            //     description: "BNPB Indonesia - Bantuan BPBD App - Internship",
-            //     link: "https://github.com/dyprast/PLPKL_BantuanBPBD",
-            //     screenshoot: "https://live.staticflickr.com/65535/50109738212_216cb96e36_c.jpg",
-            //     created_at: "2020-06-19T12:55:33.000000Z",
-            //     updated_at: "2020-06-19T13:22:21.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 10,
-            //     category_id: 1,
-            //     name: "Realisasi Anggaran",
-            //     release_date: "2019-01-15",
-            //     technology: "Laravel and Mysql",
-            //     description: "BNPB Indonesia - Realiasasi Anggaran App - Internship",
-            //     link: "https://github.com/dyprast/PLPKL_RealisasiAnggaran",
-            //     screenshoot: "https://live.staticflickr.com/65535/50109498306_23502cf21a_c.jpg",
-            //     created_at: "2020-06-19T12:54:48.000000Z",
-            //     updated_at: "2020-06-19T13:22:35.000000Z",
-            //     category: {
-            //         id: 1,
-            //         name: "Web",
-            //     }
-            // },
-            // {
-            //     id: 13,
-            //     category_id: 3,
-            //     name: "Dycards",
-            //     release_date: "2020-07-14",
-            //     technology: "Javascript",
-            //     description: "Card Flip Game",
-            //     link: "http://dycards.000webhostapp.com/",
-            //     screenshoot: "https://live.staticflickr.com/65535/50109299796_d06559e994_c.jpg",
-            //     created_at: "2020-06-19T12:39:38.000000Z",
-            //     updated_at: "2020-06-19T13:21:02.000000Z",
-            //     category: {
-            //         id: 3,
-            //         name: "Games",
-            //         created_at: "2020-06-19T08:48:12.000000Z",
-            //         updated_at: "2020-06-19T08:48:12.000000Z"
-            //     }
-            // },
-            // {
-            //     id: 14,
-            //     category_id: 3,
-            //     name: "Dysnake",
-            //     release_date: "2020-06-10",
-            //     technology: "Javascript",
-            //     description: "Snake Game using javascript",
-            //     link: "https://github.com/dyprast/JSGAME_Dysnake",
-            //     screenshoot: "https://live.staticflickr.com/65535/50108665278_7375be85cf_k.jpg",
-            //     created_at: "2020-06-19T12:39:38.000000Z",
-            //     updated_at: "2020-06-19T13:21:02.000000Z",
-            //     category: {
-            //         id: 3,
-            //         name: "Games",
-            //         created_at: "2020-06-19T08:48:12.000000Z",
-            //         updated_at: "2020-06-19T08:48:12.000000Z"
-            //     }
-            // },
-            // {
-            //     id: 15,
-            //     category_id: 3,
-            //     name: "Dytictactoe",
-            //     release_date: "2020-06-08",
-            //     technology: "Javascript",
-            //     description: "Tictactoe game using javascript",
-            //     link: "https://github.com/dyprast/JSGAME_Dytictactoe",
-            //     screenshoot: "https://live.staticflickr.com/65535/50108665233_8e914c0a87_h.jpg",
-            //     created_at: "2020-06-19T10:31:58.000000Z",
-            //     updated_at: "2020-06-19T13:21:10.000000Z",
-            //     category: {
-            //         id: 3,
-            //         name: "Games",
-            //         created_at: "2020-06-19T08:48:12.000000Z",
-            //         updated_at: "2020-06-19T08:48:12.000000Z"
-            //     }
-            // }
-        ]
-    }
-]
+        },
+        {
+            id: 2,
+            category_id: 2,
+            name: "Dychord",
+            release_date: "2020-03-07",
+            technology: "Cordova and SQLite",
+            description: "Guitar Chord App",
+            link: null,
+            screenshoot: "https://live.staticflickr.com/65535/50109299781_51d1fa393d_c.jpg",
+            created_at: "2020-06-19T12:42:41.000000Z",
+            updated_at: "2020-06-19T13:21:37.000000Z",
+            category: {
+                id: 2,
+                name: "Android",
+            }
+        },
+        {
+            id: 3,
+            category_id: 1,
+            name: "Dyresto",
+            release_date: "2020-02-11",
+            technology: "Laravel and Mysql",
+            description: "POS for restaurant cashier",
+            link: null,
+            screenshoot: "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
+            created_at: "2020-06-19T09:08:25.000000Z",
+            updated_at: "2020-06-19T13:22:28.000000Z",
+            category: {
+                id: 1,
+                name: "Web",
+            }
+        }
+    ]
+}
