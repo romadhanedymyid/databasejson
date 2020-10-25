@@ -5,20 +5,20 @@
         {
             "id": 1,
             "name": "Seni Indonesia",
-            "release_date": "2019-07-20",
+            "release_date": "2019 July",
             "technology": "Cordova and SQLite",
             "description": "Seni Indonesia (Lomba Aplikasi Mobile Ki Hajar 2019 - Kemendikbud)",
             "link": "https://www.youtube.com/watch?v=vh422u6T-PY",
             "screenshoot": "https://live.staticflickr.com/65535/50108729843_54c045e3bb_c.jpg",
             "category": {
                 "id": 2,
-                "name": "Android"
+                "name": "Android"   
             }
         },
         {
             "id": 2,
             "name": "Dychord",
-            "release_date": "2020-03-07",
+            "release_date": "2020 March",
             "technology": "Cordova and SQLite",
             "description": "Guitar chord app",
             "link": "https://github.com/dyprast/dychord",
@@ -31,11 +31,24 @@
         {
             "id": 3,
             "name": "Dyresto",
-            "release_date": "2020-02-11",
+            "release_date": "2020 Feb",
             "technology": "Laravel and Mysql",
             "description": "Restaurant cashier app",
             "link": "https://github.com/dyprast/dyresto",
             "screenshoot": "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Dyposten",
+            "release_date": "2019 Nov",
+            "technology": "Laravel and Mysql",
+            "description": "Point of sale (LSP SMKN 10 Jakarta)",
+            "link": "https://github.com/dyprast/dyposten",
+            "screenshoot": "https://live.staticflickr.com/65535/50109894342_499dfc4889_c.jpg",
             "category": {
                 "id": 1,
                 "name": "Web"
