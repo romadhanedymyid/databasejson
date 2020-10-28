@@ -18,7 +18,7 @@
         {
             "id": 2,
             "name": "Dychord",
-            "release_date": "2020 March",
+            "release_date": "2020 Mar",
             "technology": "Cordova and SQLite",
             "description": "Guitar chord app",
             "link": "https://github.com/dyprast/dychord",
@@ -62,6 +62,98 @@
             "description": "Point of sale (LSP SMKN 10 Jakarta)",
             "link": "https://github.com/dyprast/dyposten",
             "screenshoot": "https://live.staticflickr.com/65535/50109894342_499dfc4889_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Disposisi",
+            "release_date": "2019 Mar",
+            "technology": "PHP and Mysql",
+            "description": "BNPB Indonesia - Aplikasi Disposisi",
+            "link": "https://github.com/dyprast/PLPKL_Disposisi",
+            "screenshoot": "https://live.staticflickr.com/65535/50109738122_9343dd0cc8_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 6,
+            "category_id": 1,
+            "name": "Bantuan BPBD",
+            "release_date": "2019 Feb",
+            "technology": "Laravel and Mysql",
+            "description": "BNPB Indonesia - Aplikasi Pendataan Bantuan BPBD",
+            "link": "https://github.com/dyprast/PLPKL_BantuanBPBD",
+            "screenshoot": "https://live.staticflickr.com/65535/50109738212_216cb96e36_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Realisasi Anggaran",
+            "release_date": "2019 Jan",
+            "technology": "Laravel and Mysql",
+            "description": "BNPB Indonesia - Aplikasi Realiasasi Anggaran",
+            "link": "https://github.com/dyprast/PLPKL_RealisasiAnggaran",
+            "screenshoot": "https://live.staticflickr.com/65535/50109498306_23502cf21a_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Vista Sastra",
+            "release_date": "2020 Mar",
+            "technology": "Laravel and Mysql",
+            "description": "Badan Pengembangan dan Pembinaan Bahasa - Artist Gallery (Literature)",
+            "link": null,
+            "screenshoot": "https://live.staticflickr.com/65535/50109894157_afee8f5401_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Netrans",
+            "release_date": "2020 May",
+            "technology": "Laravel and Mysql",
+            "description": "Netrans Admin Application",
+            "link": null,
+            "screenshoot": "https://live.staticflickr.com/65535/50109086458_b5f5e90631_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 10,
+            "name": "INDOHP Task Report",
+            "release_date": "2020 Jun",
+            "technology": "Laravel and Mysql",
+            "description": "INDOHP Task Report Application",
+            "link": "https://gitlab.com/dyprast/indohptaskreport",
+            "screenshoot": "https://live.staticflickr.com/65535/50109086493_4482c07d51_c.jpg",
+            "category": {
+                "id": 1,
+                "name": "Web"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Digitoys API",
+            "release_date": "2020 Aug",
+            "technology": "Lumen and Mysql",
+            "description": "Digitoys API",
+            "link": null,
+            "screenshoot": "https://live.staticflickr.com/65535/50109683671_831e71a9e7_c.jpg",
             "category": {
                 "id": 1,
                 "name": "Web"
