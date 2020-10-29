@@ -22,7 +22,7 @@
             "technology": "Cordova and SQLite",
             "description": "Guitar chord app",
             "link": "https://github.com/dyprast/dychord",
-            "screenshoot": "https://live.staticflickr.com/65535/50109299781_51d1fa393d_c.jpg",
+            "screenshoot": "dychord.jpg",
             "category": {
                 "id": 2,
                 "name": "Android"
@@ -35,7 +35,7 @@
             "technology": "Laravel and Mysql",
             "description": "Restaurant cashier app",
             "link": "https://github.com/dyprast/dyresto",
-            "screenshoot": "https://live.staticflickr.com/65535/50109656521_b48758638e_c.jpg",
+            "screenshoot": "dyresto.jpg",
             "category": {
                 "id": 1,
                 "name": "Web"
@@ -48,7 +48,7 @@
             "technology": "Nuxtjs and Nodejs with SocketIO",
             "description": "Chat App",
             "link": "https://dygoo.netlify.app",
-            "screenshoot": "https://i.ibb.co/k01ZvpC/dygoo.jpg",
+            "screenshoot": "dygoo.jpg",
             "category": {
                 "id": 1,
                 "name": "Web"
